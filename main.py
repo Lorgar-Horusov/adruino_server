@@ -74,7 +74,7 @@ def menu(choose):
     elif choose in ['3', 'add', 'a']:
         # Добавление нового пользователя
         add_user(user=input('user name'), key=input('key'))
-    elif choose in ['3', 'exit', 'e']:
+    elif choose in ['0', 'exit', 'e']:
         # Выход из программы
         exit()
     else:
